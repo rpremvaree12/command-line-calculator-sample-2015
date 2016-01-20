@@ -19,7 +19,7 @@ number1 = gets.chomp.to_i
 puts "What is the second number you want to use?"
 
 #waits for the second number from the user and stores it into a variable. Changes datatype from String to an Integer
-number2 = gets.chomp
+number2 = gets.chomp.to_i
 
 #Based on the operation the user selected, performs the operation and prints out a message
 if operation == "add"
